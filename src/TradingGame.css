@@ -1,0 +1,103 @@
+.game-container {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  color: black;
+}
+
+.timer {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-container {
+  margin-top: 40px;
+}
+
+.button-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green-btn,
+.red-btn,
+.close-btn {
+  padding: 12px 20px;
+  margin: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+}
+
+.green-btn {
+  background-color: green;
+}
+
+.red-btn {
+  background-color: red;
+}
+
+.close-btn {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.divider {
+  width: 2px;
+  background-color: black;
+  margin: 0 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: beige;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid black;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  color: black;
+}
+
+.reward {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
